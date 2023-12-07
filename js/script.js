@@ -47,9 +47,3 @@ function showDropdown() {
     arrow1.style.transform = "rotate(0deg)";
   }
 }
-// companyDropdown.classList.toggle("show");
-// if (companyDropdown.classList.contains("show")) {
-//   arrow.style.transform = "rotate(180deg)";
-// } else {
-//   arrow.style.transform = "rotate(0deg)";
-// }
