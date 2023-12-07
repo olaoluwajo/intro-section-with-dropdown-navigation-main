@@ -25,3 +25,14 @@ The designs were created to the following widths:
 
 - Family: [Epilogue](https://fonts.google.com/specimen/Epilogue)
 - Weights: 500, 700
+
+
+  Login
+  Register
+
+  Make remote work
+
+  Get your team in sync, no matter your location. Streamline processes, 
+  create team rituals, and watch productivity soar.
+
+  Learn more
