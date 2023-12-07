@@ -5,11 +5,12 @@ const featuresDropdown = document.querySelector(".one");
 const companyDropdown = document.querySelector(".two");
 const featuresDropdownBtn = document.querySelector(".features--dropdown--btn");
 const companyDropdownBtn = document.querySelector(".company--dropdown--btn");
-const arrow = document.querySelector(".arrow");
+const arrow1 = document.querySelector(".arrow1");
+const arrow2 = document.querySelector(".arrow2");
 
 openMenuBtn.addEventListener("click", showMenu);
 closeMenuBtn.addEventListener("click", unshowMenu);
-featuresDropdownBtn.addEventListener("click", showDropdown);
+featuresDropdownBtn.addEventListener("click", showDropdown1);
 companyDropdownBtn.addEventListener("click", showDropdown);
 
 function showMenu() {
@@ -28,18 +29,27 @@ function unshowMenu() {
   }
 }
 
-function showDropdown() {
+function showDropdown1() {
   featuresDropdown.classList.toggle("show");
   if (featuresDropdown.classList.contains("show")) {
-    arrow.style.transform = "rotate(180deg)";
+    arrow2.style.transform = "rotate(180deg)";
   } else {
-    arrow.style.transform = "rotate(0deg)";
-  }
-
-  companyDropdown.classList.toggle("show");
-  if (companyDropdown.classList.contains("show")) {
-    arrow.style.transform = "rotate(180deg)";
-  }else {
-    arrow.style.transform = "rotate(0deg)";
+    arrow2.style.transform = "rotate(0deg)";
   }
 }
+
+
+function showDropdown() {
+  companyDropdown.classList.toggle("show");
+  if (companyDropdown.classList.contains("show")) {
+    arrow1.style.transform = "rotate(180deg)";
+  } else {
+    arrow1.style.transform = "rotate(0deg)";
+  }
+}
+// companyDropdown.classList.toggle("show");
+// if (companyDropdown.classList.contains("show")) {
+//   arrow.style.transform = "rotate(180deg)";
+// } else {
+//   arrow.style.transform = "rotate(0deg)";
+// }
